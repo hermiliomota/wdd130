@@ -1,17 +1,32 @@
 :root {
-
-    --primary-color: steeblue;
+    --primary-color: steelblue;
     --light-bg: #eee;
-    --dark-text:#333;
+    --dark-text: #333;
     --border-color: rgba(0, 0, 0, 0.2);
     --box-shadow: 0 0 30px gray;
     --max-width: 800px;
     --aside-width: 20rem;
     --nav-padding: 10px;
-    --main-padding: 20px; 
-
+    --main-padding: 20px;
 }
 
+/*Global Resets*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Typography*/
+h1 {
+    color: var(--primary-color);
+}
+
+p {
+    padding: 0;
+}
+
+/*Navigation*/
 nav {
     background-color: var(--primary-color);
     padding: var(--nav-padding);
@@ -19,40 +34,34 @@ nav {
 
 nav a {
     color: white;
-    padding: 10px;
     display: block;
+    padding: 20px;
 }
 
-h1 {
-    color: var(--primary-color);
-}
-
-main img {
-    width: 150px;
-    height: auto;
-    border: 1px solid var(--primary-color);
-    padding: 2px;
-    box-shadow: var(--box-shadow);
-}
-
+/*Main Content*/
 main {
     max-width: var(--max-width);
     margin: 0 auto;
     padding: var(--main-padding);
 }
 
-p {
-    padding: 0;
+main img {
+    width: 7rem;
+    height: auto;
+    float: right;
+    margin: 0 0 1rem 1rem;
 }
 
+/*Sidebar / Aside*/
 aside {
     width: var(--aside-width);
     margin: 1rem;
-    border: 1px solid var(--border-color);
-    padding: 1em;
+    padding: 1rem;
+    text-align: center;
+
     background-color: var(--light-bg);
     color: var(--dark-text);
-    text-align: center;
+    border: 1px solid var(--border-color);
 }
 
 aside img {
@@ -60,8 +69,37 @@ aside img {
     height: auto;
 }
 
+/*Footer*/
 footer {
-    margin-top: 1em;
+    margin-top: 2em;
+    text-align: center;
     border-top: 1px solid #000;
+}
+
+/*Class Selectors*/
+
+.box {
+    margin: 1rem auto;
+    padding: 1.5rem;
+    max-width: 400px;
+
+    background-color: white;
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    box-shadow: var(--box-shadow);
     text-align: center;
 }
+
+.box img {
+    width: 80%;
+    height: auto;
+    margin-bottom: 1rem;
+    border-radius: 6px;
+}
+
+/*aside h2 {
+    position: absolute;
+    top: 47px;
+    left: 150px;
+}
+    */
