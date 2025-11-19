@@ -99,7 +99,7 @@ nav, p, section, article {
   background-color: #e9f7f1;
   /* fallback/background de apoio — usa o ficheiro de imagem que você enviou */
   background-image: url("images/happy-client.png");
-  background-size: cover;0
+  background-size: cover;
   background-position: center;
 }
 
