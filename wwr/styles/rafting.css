@@ -81,7 +81,12 @@ header nav a {
   transition: background 0.2s, color 0.2s;
 }
 
-header nav a:hover,
+header nav a:hover{
+  background-color: var(--accent2-color);
+  color: var(--primary-color);
+}
+
+
 header nav a:focus-visible {
   background: rgba(255,255,255,0.12);
 }
