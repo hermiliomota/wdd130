@@ -1,6 +1,4 @@
-/* ============================================
-   CONTACT PAGE — LAYOUT SECTIONS
-   ============================================ */
+/* CONTACT PAGE — LAYOUT SECTIONS */
 
 /* Contact Info Section */
 .contact-info {
@@ -27,9 +25,7 @@
   margin-top: 12px;
 }
 
-/* ============================================
-   EMPLOYEE PROFILES
-   ============================================ */
+/* EMPLOYEE PROFILES */
 .employees {
   margin-top: 24px;
 }
@@ -56,9 +52,7 @@
   color: var(--accent1-color);
 }
 
-/* ============================================
-   CONTACT FORM STYLES
-   ============================================ */
+/* CONTACT FORM STYLES */
 .contact-form-section {
   margin-top: 24px;
 }
@@ -144,9 +138,7 @@
   transform: scale(0.97);
 }
 
-/* ============================================
-   RESPONSIVE ADJUSTMENTS FOR CONTACT PAGE
-   ============================================ */
+/* RESPONSIVE ADJUSTMENTS FOR CONTACT PAGE */
 @media (max-width: 600px) {
   .contact-info iframe {
     height: 250px;
