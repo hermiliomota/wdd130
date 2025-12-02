@@ -131,7 +131,8 @@
 }
 
 .submit-btn:hover {
-  background: var(--accent1-color);
+  background: var(--accent2-color);
+  color: var(--primary-color);
 }
 
 .submit-btn:active {
